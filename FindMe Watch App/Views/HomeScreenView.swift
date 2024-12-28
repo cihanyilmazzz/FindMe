@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeScreen: View {
+struct HomeScreenView: View {
     @StateObject private var viewModel = ColorPickerViewModel()
     @State private var brightness : Double = 1.0
     @State private var isFullScreen = false
@@ -62,37 +62,16 @@ struct HomeScreen: View {
                             .foregroundColor(.white)
                             .cornerRadius(8)
                     }
-                    // ---
-                    
-                     /*NavigationLink(destination: FullScreenView(colors: viewModel.selectedColors, brightness: brightness)) {
-                        Button(action: {
-                            print("START WORKED!")
-                        })
-                        {
-                            Text("Start")
-                                .font(.headline)
-                                .padding()
-                                .frame(maxWidth: .infinity)
-                                .background(Color.blue)
-                                .foregroundColor(.white)
-                                .cornerRadius(8)
-                        }
-                        
-                     
-                    }*/
-                    
-                    
-                    
-                    
-                }.offset(y:-20)
+                }
+                .offset(y:-20)
             }
         }
         
     }
     
-    struct HomeScreen_Previews: PreviewProvider {
+    struct HomeScreenView_Previews: PreviewProvider {
         static var previews: some View {
-            HomeScreen()
+            HomeScreenView()
         }
     }
 }

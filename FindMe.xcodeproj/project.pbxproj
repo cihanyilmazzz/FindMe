@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		CD2E8B952D2071B700353496 /* FindMe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CD2E8B942D2071B700353496 /* FindMe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CD2E8B9A2D2071B700353496 /* FindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8B992D2071B700353496 /* FindMeApp.swift */; };
-		CD2E8B9C2D2071B700353496 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8B9B2D2071B700353496 /* ContentView.swift */; };
+		CD2E8B9C2D2071B700353496 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8B9B2D2071B700353496 /* MainView.swift */; };
 		CD2E8B9E2D2071B900353496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2E8B9D2D2071B900353496 /* Assets.xcassets */; };
 		CD2E8BA12D2071B900353496 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2E8BA02D2071B900353496 /* Preview Assets.xcassets */; };
 		CD2E8BAB2D2071B900353496 /* FindMe_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BAA2D2071B900353496 /* FindMe_Watch_AppTests.swift */; };
 		CD2E8BB52D2071B900353496 /* FindMe_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BB42D2071B900353496 /* FindMe_Watch_AppUITests.swift */; };
 		CD2E8BB72D2071B900353496 /* FindMe_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BB62D2071B900353496 /* FindMe_Watch_AppUITestsLaunchTests.swift */; };
+		CD2E8BD12D2085FB00353496 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD02D2085FB00353496 /* HomeScreenView.swift */; };
+		CD2E8BD32D2089A800353496 /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD22D2089A800353496 /* ColorPickerViewModel.swift */; };
+		CD2E8BD72D20992400353496 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD62D20992400353496 /* FullScreenView.swift */; };
+		CD2E8BD92D20A33500353496 /* FullScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD82D20A33500353496 /* FullScreenViewModel.swift */; };
+		CD2E8BDC2D20ABAA00353496 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +64,7 @@
 		CD2E8B8E2D2071B700353496 /* FindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E8B942D2071B700353496 /* FindMe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FindMe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E8B992D2071B700353496 /* FindMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMeApp.swift; sourceTree = "<group>"; };
-		CD2E8B9B2D2071B700353496 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD2E8B9B2D2071B700353496 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CD2E8B9D2D2071B900353496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2E8BA02D2071B900353496 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD2E8BA62D2071B900353496 /* FindMe Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FindMe Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +72,11 @@
 		CD2E8BB02D2071B900353496 /* FindMe Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FindMe Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2E8BB42D2071B900353496 /* FindMe_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMe_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CD2E8BB62D2071B900353496 /* FindMe_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMe_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD2E8BD02D2085FB00353496 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		CD2E8BD22D2089A800353496 /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
+		CD2E8BD62D20992400353496 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
+		CD2E8BD82D20A33500353496 /* FullScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewModel.swift; sourceTree = "<group>"; };
+		CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +128,12 @@
 		CD2E8B982D2071B700353496 /* FindMe Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CD2E8BDA2D20A85400353496 /* Other */,
+				CD2E8BC92D20730700353496 /* Models */,
+				CD2E8BC82D20730100353496 /* Views */,
+				CD2E8BC72D2072F300353496 /* ViewModels */,
 				CD2E8B992D2071B700353496 /* FindMeApp.swift */,
-				CD2E8B9B2D2071B700353496 /* ContentView.swift */,
+				CD2E8B9B2D2071B700353496 /* MainView.swift */,
 				CD2E8B9D2D2071B900353496 /* Assets.xcassets */,
 				CD2E8B9F2D2071B900353496 /* Preview Content */,
 			);
@@ -149,6 +163,39 @@
 				CD2E8BB62D2071B900353496 /* FindMe_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "FindMe Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		CD2E8BC72D2072F300353496 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CD2E8BD22D2089A800353496 /* ColorPickerViewModel.swift */,
+				CD2E8BD82D20A33500353496 /* FullScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CD2E8BC82D20730100353496 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD2E8BD02D2085FB00353496 /* HomeScreenView.swift */,
+				CD2E8BD62D20992400353496 /* FullScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD2E8BC92D20730700353496 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD2E8BDA2D20A85400353496 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2E8BDC2D20ABAA00353496 /* Launch Screen.storyboard in Resources */,
 				CD2E8BA12D2071B900353496 /* Preview Assets.xcassets in Resources */,
 				CD2E8B9E2D2071B900353496 /* Assets.xcassets in Resources */,
 			);
@@ -309,8 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2E8B9C2D2071B700353496 /* ContentView.swift in Sources */,
+				CD2E8BD12D2085FB00353496 /* HomeScreenView.swift in Sources */,
+				CD2E8BD32D2089A800353496 /* ColorPickerViewModel.swift in Sources */,
+				CD2E8B9C2D2071B700353496 /* MainView.swift in Sources */,
+				CD2E8BD72D20992400353496 /* FullScreenView.swift in Sources */,
 				CD2E8B9A2D2071B700353496 /* FindMeApp.swift in Sources */,
+				CD2E8BD92D20A33500353496 /* FullScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

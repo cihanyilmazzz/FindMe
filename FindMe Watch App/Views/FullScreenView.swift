@@ -7,31 +7,45 @@
 
 import SwiftUI
 
-struct FullScreen: View {
-    
+struct FullScreenView: View {
     let colors: [Color]
     let brightness: Double
-    
-    @Environment(\.presentationMode) var presentationMode // Handles dismiss
 
-        var body: some View {
-            TabView {
-                ForEach(colors, id: \.self) { color in
-                    color
-                        .opacity(brightness / 3) // Adjust brightness
-                        .edgesIgnoringSafeArea(.all) // Full screen
-                }
+    @StateObject private var viewModel = FullScreenViewModel() // Attach ViewModel
+    @Environment(\.presentationMode) var presentationMode // For dismissing the view
+
+    var body: some View {
+        ZStack {
+            if colors.isEmpty {
+                Text("No colors selected")
+                    .font(.headline)
+                    .foregroundColor(.gray)
+            } else {
+                colors[viewModel.currentIndex]
+                    .opacity(brightness / 3) // Apply brightness
+                    .edgesIgnoringSafeArea(.all) // Full screen
             }
-            .tabViewStyle(PageTabViewStyle()) // Swipeable screens for multiple colors
-            .onTapGesture {
-                presentationMode.wrappedValue.dismiss() // Dismiss to go back
-            }
+        }
+        .onAppear {
+            viewModel.startFlashingColors(colorsCount: colors.count)
+        }
+        .onDisappear {
+            viewModel.stopFlashingColors()
+        }
+        .onTapGesture {
+            viewModel.stopFlashingColors()
+            presentationMode.wrappedValue.dismiss() // Go back to menu
         }
     }
-
-
-struct FullScreen_Previews: PreviewProvider {
-    static var previews: some View {
-            FullScreen(colors: [Color.red], brightness: 1.0) // Pass an array of Color
-        }
 }
+
+ 
+ struct FullScreen_Previews: PreviewProvider {
+ static var previews: some View {
+ FullScreenView(colors: [Color.red], brightness: 1.0) // Pass an array of Color
+ FullScreenView(colors: [Color.blue], brightness: 1.0) // Pass an array of Color
+ }
+ 
+ }
+ 
+

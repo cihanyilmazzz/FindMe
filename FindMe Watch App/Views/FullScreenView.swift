@@ -36,14 +36,17 @@ struct FullScreenView: View {
             viewModel.stopFlashingColors()
             presentationMode.wrappedValue.dismiss() // Go back to menu
         }
+        .navigationBarHidden(true) // Hide the navigation bar
+        
     }
+       
 }
 
  
  struct FullScreen_Previews: PreviewProvider {
  static var previews: some View {
- FullScreenView(colors: [Color.red], brightness: 1.0) // Pass an array of Color
- FullScreenView(colors: [Color.blue], brightness: 1.0) // Pass an array of Color
+ FullScreenView(colors: [Color.red], brightness: 3.0) // Pass an array of Color
+ FullScreenView(colors: [Color.blue], brightness: 3.0) // Pass an array of Color
  }
  
  }

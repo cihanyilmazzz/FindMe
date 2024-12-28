@@ -19,7 +19,6 @@
 		CD2E8BD32D2089A800353496 /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD22D2089A800353496 /* ColorPickerViewModel.swift */; };
 		CD2E8BD72D20992400353496 /* FullScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD62D20992400353496 /* FullScreenView.swift */; };
 		CD2E8BD92D20A33500353496 /* FullScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2E8BD82D20A33500353496 /* FullScreenViewModel.swift */; };
-		CD2E8BDC2D20ABAA00353496 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +75,6 @@
 		CD2E8BD22D2089A800353496 /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
 		CD2E8BD62D20992400353496 /* FullScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenView.swift; sourceTree = "<group>"; };
 		CD2E8BD82D20A33500353496 /* FullScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewModel.swift; sourceTree = "<group>"; };
-		CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +191,6 @@
 		CD2E8BDA2D20A85400353496 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				CD2E8BDB2D20ABAA00353496 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2E8BDC2D20ABAA00353496 /* Launch Screen.storyboard in Resources */,
 				CD2E8BA12D2071B900353496 /* Preview Assets.xcassets in Resources */,
 				CD2E8B9E2D2071B900353496 /* Assets.xcassets in Resources */,
 			);

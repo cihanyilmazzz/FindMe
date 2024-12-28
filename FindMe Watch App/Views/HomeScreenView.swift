@@ -21,11 +21,12 @@ struct HomeScreenView: View {
                     Text("Select colors")
                         .font(.headline)
                         .padding()
+                        
                     
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
-                            ForEach([Color.red, Color.green, Color.blue, Color.yellow, Color.orange, Color.purple], id: \.self) { color in
+                            ForEach([Color.yellow, Color.orange, Color.red, Color.blue, Color.pink, Color.white], id: \.self) { color in
                                 Button(action: {
                                     viewModel.toggleColorSelection(color) // Call the ViewModel function
                                 }) {
@@ -39,6 +40,8 @@ struct HomeScreenView: View {
                                             : nil
                                         )
                                 }
+                                .padding(2)
+                                .buttonStyle(.plain)
                                 
                             }
                         }
@@ -51,8 +54,12 @@ struct HomeScreenView: View {
                         Slider(value: $brightness, in: 1...3, step: 1)
                             .padding()
                     }
+                    .offset(y:10)
                     
                     // START BUTTON
+                   
+
+                    
                     NavigationLink(destination: FullScreenView(colors: viewModel.selectedColors, brightness: brightness)) {
                         Text("Start")
                             .font(.headline)
@@ -61,10 +68,18 @@ struct HomeScreenView: View {
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(8)
+                           
                     }
+                    .buttonStyle(.plain)
+                    .offset(y:10)
+                    
                 }
-                .offset(y:-20)
+                
+                
+               
+               
             }
+            
         }
         
     }

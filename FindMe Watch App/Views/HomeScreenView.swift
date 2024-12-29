@@ -58,8 +58,6 @@ struct HomeScreenView: View {
                     
                     // START BUTTON
                    
-
-                    
                     NavigationLink(destination: FullScreenView(colors: viewModel.selectedColors, brightness: brightness)) {
                         Text("Start")
                             .font(.headline)

@@ -6,7 +6,7 @@
 </div>
 
 
-## 🛠️ Find Me App
+## ⌚ Find Me App
 
 A vibrant Apple Watch app to help you stand out and be seen!
 

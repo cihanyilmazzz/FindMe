@@ -1,8 +1,8 @@
 <div style="display: flex; justify-content: center; gap: 10px;">
-<img src="https://cdn.discordapp.com/attachments/1325223342650818640/1325223484594327583/Screen-1.png?ex=677b020c&is=6779b08c&hm=3307ba4759f3d2aee5a7b6f4bca1b156a908f9c4f67e24419e090f62a6e741f5&" width="200" height="auto">
-<img src="https://cdn.discordapp.com/attachments/1325223342650818640/1325223485295034489/Screen-2.png?ex=677b020c&is=6779b08c&hm=620fed8fc4aebc1c37589dbfed1f662903016cac4ae270bde145a7cca6b43adb&" width="200" height="auto">
-<img src="https://cdn.discordapp.com/attachments/1325223342650818640/1325223486628565102/Screen-4.png?ex=677b020c&is=6779b08c&hm=e750f1ed4fc1aaa985d198f3f45c8fa115c057e83b6fba7db981e7406bb0b319&" width="200" height="auto">
-<img src="https://cdn.discordapp.com/attachments/1325223342650818640/1325223485961666591/Screen-3.png?ex=677b020c&is=6779b08c&hm=441884d8bdbe1276b1ad9b5744d146a12207093e9285cdc450315436a11303f8&" width="200" height="auto">
+<img src="https://media.discordapp.net/attachments/1325223342650818640/1325223484594327583/Screen-1.png?ex=6788310c&is=6786df8c&hm=7b3750f1909e15a4888460a3e5a220f852c13d304ee9daf794dff1e6bb2c7fd0&=&format=webp&quality=lossless&width=200&height=auto" width="200" height="auto">
+<img src="https://media.discordapp.net/attachments/1325223342650818640/1325223485295034489/Screen-2.png?ex=6788310c&is=6786df8c&hm=d045adb689bd401666746166e4c1cc8780fba3e9f6db5f28d15487c375d55ef7&=&format=webp&quality=lossless&width=200&height=auto" width="200" height="auto">
+<img src="https://media.discordapp.net/attachments/1325223342650818640/1325223485961666591/Screen-3.png?ex=6788310c&is=6786df8c&hm=ac7ffb3f1419ae796b5af8435723b0984c46b0b69eb2e8d698e557c652c87437&=&format=webp&quality=lossless&width=200&height=auto" width="200" height="auto">
+<img src="https://media.discordapp.net/attachments/1325223342650818640/1325223486628565102/Screen-4.png?ex=6788310c&is=6786df8c&hm=32dd014e8882fa2c490d240ef5654f2b3f5aef7b0232a05a5af69d395d3c8040&=&format=webp&quality=lossless&width=200&height=auto" width="200" height="auto">
 </div>
 
 
